@@ -1,24 +1,29 @@
-<div class="welcome text-center padded">
-  <h1>Joé Marc  </h1>
-  <h2>Ruby on Rails developper</h2>
-  <p>
-    <i class="fa fa-github" aria-hidden="true">
-      <%= link_to "github", "https://github.com/Joemarc"  %>
-    </i>
-  </p>
+<div class="wrapper">
+  <div class="welcome text-center padded">
+    <h1>Joé Marc  </h1>
+    <h2>Ruby on Rails developper</h2>
+    <p>
+      <i class="fa fa-github" aria-hidden="true">
+        <%= link_to "github", "https://github.com/Joemarc"  %>
+      </i>
+    </p>
+  </div>
 </div>
 <div class="container">
-  <div class="text-center">
+  <div class="text-center padded">
     <h2>Projets</h2>
     <p>Sur lesquels j'ai pu travailler</p>
   </div>
-   <div class="row">
-    <% data.project.each do |owner, project| %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url('<%= image_path project.picture %>');">
-        </div>
-        </div>
-      </div>
-    <% end %>
+  <div class="row">
+    <h3 class= "text-center">Run2meet.fr</h3>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-2">
+      <img src="images/r2m.png">
+      <%= link_to %>
+    </div>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-2">
+      <h3>Coursmapoule.com</h3>
+      <img src="images/coursmapoule.png">
+      <%= link_to %>
+    </div>
   </div>
 </div>

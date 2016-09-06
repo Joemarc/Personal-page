@@ -12,3 +12,19 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+img {
+  width: 700px;
+  height: 400px;
+}
+
+.wrapper {
+  background-image: url('../images/blue_light.jpg');
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+body {
+  color:black;
+  background-color:white;
+}
