@@ -86,3 +86,7 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+# ["run2meet", "coursmapoule"].each do |name|
+#   proxy "/projects/#{name}.html", "/projects/show.html", :locals => { :owner => name }, :ignore => true
+# end

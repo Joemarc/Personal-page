@@ -1,10 +1,24 @@
----
-title: Le Wagon Middleman boilerplate
----
-
 <div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  <h1>Joé Marc  </h1>
+  <h2>Ruby on Rails developper</h2>
+  <p>
+    <i class="fa fa-github" aria-hidden="true">
+      <%= link_to "github", "https://github.com/Joemarc"  %>
+    </i>
+  </p>
+</div>
+<div class="container">
+  <div class="text-center">
+    <h2>Projets</h2>
+    <p>Sur lesquels j'ai pu travailler</p>
+  </div>
+   <div class="row">
+    <% data.project.each do |owner, project| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: url('<%= image_path project.picture %>');">
+        </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
