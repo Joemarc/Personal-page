@@ -16,6 +16,9 @@
 img {
   width: 700px;
   height: 400px;
+  &:hover{
+    opacity: 0.6;
+  }
 }
 
 .wrapper {
@@ -28,3 +31,8 @@ body {
   color:black;
   background-color:white;
 }
+
+.border {
+  border-bottom: 1px solid grey;
+}
+
