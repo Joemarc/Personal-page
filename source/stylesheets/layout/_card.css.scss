@@ -16,6 +16,25 @@
   position: relative;
   width: 400px;
 }
+
+.card3 {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-image: url('../images/R2Mblog.png');
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  width: 400px;
+}
+.card4 {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-image: url('../images/R2Mevent.png');
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  width: 400px;
+}
 .card-user {
   position: absolute;
   right: 10px;
