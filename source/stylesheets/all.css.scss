@@ -16,6 +16,7 @@
 img {
   width: 700px;
   height: 400px;
+  transition: 0.5s;
   &:hover{
     opacity: 0.6;
   }
